@@ -4,7 +4,10 @@ project(DSA_c_c_ C)
 set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
-include_directories(DSA_lab)
+include_directories(Algorithms)
 
 add_executable(DSA_c_c_
-        DSA_lab/SearchAlgo.c)
+        Algorithms/SearchAlgo/BinarySearch.c
+        Algorithms/SortAlgo/InsertionSort.c
+        Algorithms/SortAlgo/SelectionSort.c
+)

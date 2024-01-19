@@ -49,12 +49,26 @@ cmake_ninja_workdir = C$:/Users/adhak/CLionProjects/DSA-c-c-/cmake-build-debug/
 
 build cmake_object_order_depends_target_DSA_c_c_: phony || CMakeFiles/DSA_c_c_.dir
 
-build CMakeFiles/DSA_c_c_.dir/DSA_lab/SearchAlgo.c.obj: C_COMPILER__DSA_c_c__unscanned_Debug C$:/Users/adhak/CLionProjects/DSA-c-c-/DSA_lab/SearchAlgo.c || cmake_object_order_depends_target_DSA_c_c_
-  DEP_FILE = CMakeFiles\DSA_c_c_.dir\DSA_lab\SearchAlgo.c.obj.d
+build CMakeFiles/DSA_c_c_.dir/Algorithms/SearchAlgo/BinarySearch.c.obj: C_COMPILER__DSA_c_c__unscanned_Debug C$:/Users/adhak/CLionProjects/DSA-c-c-/Algorithms/SearchAlgo/BinarySearch.c || cmake_object_order_depends_target_DSA_c_c_
+  DEP_FILE = CMakeFiles\DSA_c_c_.dir\Algorithms\SearchAlgo\BinarySearch.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/adhak/CLionProjects/DSA-c-c-/. -IC:/Users/adhak/CLionProjects/DSA-c-c-/DSA_lab
+  INCLUDES = -IC:/Users/adhak/CLionProjects/DSA-c-c-/. -IC:/Users/adhak/CLionProjects/DSA-c-c-/Algorithms
   OBJECT_DIR = CMakeFiles\DSA_c_c_.dir
-  OBJECT_FILE_DIR = CMakeFiles\DSA_c_c_.dir\DSA_lab
+  OBJECT_FILE_DIR = CMakeFiles\DSA_c_c_.dir\Algorithms\SearchAlgo
+
+build CMakeFiles/DSA_c_c_.dir/Algorithms/SortAlgo/InsertionSort.c.obj: C_COMPILER__DSA_c_c__unscanned_Debug C$:/Users/adhak/CLionProjects/DSA-c-c-/Algorithms/SortAlgo/InsertionSort.c || cmake_object_order_depends_target_DSA_c_c_
+  DEP_FILE = CMakeFiles\DSA_c_c_.dir\Algorithms\SortAlgo\InsertionSort.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/adhak/CLionProjects/DSA-c-c-/. -IC:/Users/adhak/CLionProjects/DSA-c-c-/Algorithms
+  OBJECT_DIR = CMakeFiles\DSA_c_c_.dir
+  OBJECT_FILE_DIR = CMakeFiles\DSA_c_c_.dir\Algorithms\SortAlgo
+
+build CMakeFiles/DSA_c_c_.dir/Algorithms/SortAlgo/SelectionSort.c.obj: C_COMPILER__DSA_c_c__unscanned_Debug C$:/Users/adhak/CLionProjects/DSA-c-c-/Algorithms/SortAlgo/SelectionSort.c || cmake_object_order_depends_target_DSA_c_c_
+  DEP_FILE = CMakeFiles\DSA_c_c_.dir\Algorithms\SortAlgo\SelectionSort.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/adhak/CLionProjects/DSA-c-c-/. -IC:/Users/adhak/CLionProjects/DSA-c-c-/Algorithms
+  OBJECT_DIR = CMakeFiles\DSA_c_c_.dir
+  OBJECT_FILE_DIR = CMakeFiles\DSA_c_c_.dir\Algorithms\SortAlgo
 
 
 # =============================================================================
@@ -64,7 +78,7 @@ build CMakeFiles/DSA_c_c_.dir/DSA_lab/SearchAlgo.c.obj: C_COMPILER__DSA_c_c__uns
 #############################################
 # Link the executable DSA_c_c_.exe
 
-build DSA_c_c_.exe: C_EXECUTABLE_LINKER__DSA_c_c__Debug CMakeFiles/DSA_c_c_.dir/DSA_lab/SearchAlgo.c.obj
+build DSA_c_c_.exe: C_EXECUTABLE_LINKER__DSA_c_c__Debug CMakeFiles/DSA_c_c_.dir/Algorithms/SearchAlgo/BinarySearch.c.obj CMakeFiles/DSA_c_c_.dir/Algorithms/SortAlgo/InsertionSort.c.obj CMakeFiles/DSA_c_c_.dir/Algorithms/SortAlgo/SelectionSort.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DSA_c_c_.dir
