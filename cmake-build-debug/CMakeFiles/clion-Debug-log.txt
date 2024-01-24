@@ -1,4 +1,13 @@
 "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\adhak\CLionProjects\DSA-c-c- -B C:\Users\adhak\CLionProjects\DSA-c-c-\cmake-build-debug
--- Configuring done (0.3s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/adhak/CLionProjects/DSA-c-c-/cmake-build-debug
+-- Configuring done (0.0s)
+CMake Error at CMakeLists.txt:9 (add_executable):
+  Cannot find source file:
+
+    DSA_lab/SearchAlgo.c
+
+
+CMake Error at CMakeLists.txt:9 (add_executable):
+  No SOURCES given to target: DSA_c_c_
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

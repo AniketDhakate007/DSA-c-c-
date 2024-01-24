@@ -1,3 +1,7 @@
+
+int BinarySearch(int arr[], int low, int high, int key);
+
+
 //
 // Created by adhak on 17-01-2024.
 //
